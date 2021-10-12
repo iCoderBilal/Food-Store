@@ -227,7 +227,8 @@ header.hero .container{
 
 
 section{
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 section.top-products{
@@ -236,8 +237,13 @@ section.top-products{
 
 section.top-products .food-slider .food-cart{
     background:var(--heaven);
-    padding: 1.5rem 0 ;
+    padding: 1.5rem  ;
     border-radius: 4px;
+    width: 600px;
+    position: relative;
+    left: 260px;
+  
+   
 }
 
 section.top-products .food-slider .food-cart .product-image img{
@@ -245,6 +251,7 @@ section.top-products .food-slider .food-cart .product-image img{
     height: 200px;
     padding-bottom: 1rem;
     object-fit: contain;
+    
 }
 
 hr{
@@ -285,7 +292,7 @@ section.top-products .food-slider .food-cart button{
     border-radius: 4px;
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 30%;
     font-size: 1rem;
     cursor: pointer;
     transition: all .3s ease;
